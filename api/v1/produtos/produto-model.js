@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const { sequelize } = require('../../../config/database');
+const { sequelize } = require('../../../config/db');
 
 // Definição do modelo Produto
 const Produto = sequelize.define('Produto', {
